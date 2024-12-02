@@ -8,12 +8,12 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  cpp,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
+  nextjs,
   docker,
   meta,
   starbucks,
@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Front-end Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "API Integration",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Responsive Design",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "UI/UX Design",
     icon: creator,
   },
 ];
@@ -81,8 +81,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "C++",
+    icon: cpp,
   },
   {
     name: "Tailwind CSS",
@@ -105,8 +105,8 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Next JS",
+    icon: nextjs,
   },
   {
     name: "docker",
@@ -116,57 +116,38 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "AWS Cloud Practitioner",
     icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    iconBg: "#FFFFFF",
+    date: "January 21, 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Gained foundational knowledge in AWS cloud services, including core services like EC2, S3, and RDS.",
+      "Learned how to navigate the AWS Management Console and utilize key AWS services for cloud solutions.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Google Cloud Digital Leader",
     icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    iconBg: "#666666 ",
+    date: "January 10, 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Acquired essential understanding of Google Cloud services, covering topics like cloud infrastructure and data storage solutions.",
+      "Built introductory skills in utilizing Google Cloud technologies to enhance business operations and productivity.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Full Stack Web Developer",
+    company_name: "CODSOFT",
+    icon: tesla,
+    iconBg: "#FFFFFF",
+    date: "July 2024 -August 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a Job Portal prototype using React, Node, and MongoDB, featuring job listings and user registration with REST APIs, successfully demonstrating over 50 listings and registrations locally.",
+      "Created a blogging platform with HTML, CSS, and JavaScript, utilizing responsive UI components and REST APIs, which improved page load speed by 30%.",
+      "Implemented CRUD operations with MongoDB, Express.js, and Node.js, optimizing queries through data caching and reducing query time by 25%.",
     ],
   },
+
 ];
 
 const testimonials = [
@@ -198,9 +179,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Vichar",
+    name: "WorkHive",
     description:
-      "Vichar is a blogging platform where users can upload and share their cherished memories with the world. Whether it's a nostalgic childhood moment, a life-changing experience, or a triumphant achievement, Vichar provides a space to express and preserve your thoughts and stories.",
+      "Developed a full-stack job portal, WorkHive, using MongoDB, Express, React, and Node.js, supporting both Employee and Job Seeker roles. Designed a scalable data storage solution with MongoDB and built a responsive, user-friendly interface with React, ensuring smooth performance and efficient user experience.",
     tags: [
       {
         name: "react",
@@ -211,54 +192,54 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "restapi",
         color: "pink-text-gradient",
       },
     ],
     image: vichar,
-    source_code_link: "https://github.com/AadarshDubey/Blogging-System",
+    source_code_link: "https://github.com/AadarshDubey/CODSOFT2",
   },
   {
-    name: "Job IT",
+    name: "LiveDocs",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed a real-time collaborative editor using Next.js, TypeScript, and Liveblocks, allowing multiple users to edit documents simultaneously with instant synchronization. Integrated secure authentication using Clerk API for seamless login and fine-grained access control, ensuring a secure and smooth collaboration experience.",
     tags: [
       {
-        name: "react",
+        name: "typescript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "nextjs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/AadarshDubey/LiveDocs",
   },
   {
-    name: "Trip Guide",
+    name: "Saas Landing Page",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed a responsive SaaS landing page using React.js and Tailwind CSS, incorporating interactive features like collapsible FAQs and animated pricing sections. Focused on creating an engaging user experience with 3D design elements and feedback-driven UI/UX enhancements.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwindcss",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "UI/UX",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/AadarshDubey/Xora",
   },
 ];
 

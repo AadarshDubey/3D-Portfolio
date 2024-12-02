@@ -11,7 +11,7 @@ const Earth = () => {
     <primitive object={earth.scene} scale={2.5} position-y={0} rotation-y={0} />
   );
 };
-
+  
 const EarthCanvas = () => {
   return (
     <Canvas
