@@ -8,7 +8,7 @@ const Resume = () => {
         📄You can view my resume by clicking the link below📄
       </p>
       <a 
-        href="https://drive.google.com/file/d/1_m_qyBcN_e9l8Ew1y7SQoWNIVyE2CEQg/view?usp=sharing" 
+        href="https://drive.google.com/file/d/1lf_QGHUdA6mUiRtv9caME0gAD9V7lo4H/view?usp=drive_link" 
         target="_blank" 
         rel="noopener noreferrer" 
         className="text-purple-500 underline text-xl inline-block py-4 px-6 break-words"

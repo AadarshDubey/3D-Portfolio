@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import {styles} from '../styles';
 import { navLinks } from '../constants';
-import{logo, menu, close} from '../assets';
+import{logo, menu, close, github, linkedin} from '../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -24,19 +24,31 @@ const Navbar = () => {
             Aadarsh Dubey &nbsp; <span className="sm:block hidden">| Web Developer</span>
           </p>
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-10">
-          {navLinks.map((link) => (
-            <li
-              key={link.id}
-              className={`${
-                active == link.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(link.title)}
-            >
-              <a href={`#${link.id}`}>{link.title}</a>
-            </li>
-          ))}
-        </ul>
+
+        <div className="flex items-center gap-6">
+          <div className="hidden sm:flex gap-5">
+            <a href="https://github.com/AadarshDubey" target="_blank" rel="noopener noreferrer">
+              <img src={github} alt="github" className="w-8 h-8 object-contain cursor-pointer hover:opacity-80 transition-opacity" />
+            </a>
+            <a href="https://www.linkedin.com/in/aadarsh-dubey-551680164/" target="_blank" rel="noopener noreferrer">
+              <img src={linkedin} alt="linkedin" className="w-7 h-8 object-contain cursor-pointer hover:opacity-80 transition-opacity" />
+            </a>
+          </div>
+
+          <ul className="list-none hidden sm:flex flex-row gap-8">
+            {navLinks.map((link) => (
+              <li
+                key={link.id}
+                className={`${
+                  active == link.title ? "text-white" : "text-secondary"
+                } hover:text-white text-[18px] font-medium cursor-pointer`}
+                onClick={() => setActive(link.title)}
+              >
+                <a href={`#${link.id}`}>{link.title}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
         
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img

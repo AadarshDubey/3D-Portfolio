@@ -9,7 +9,7 @@ import {
   css,
   reactjs,
   cpp,
-  tailwind,
+  tailwind, 
   nodejs,
   mongodb,
   git,
@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  outlier,
 } from "../assets";
 
 export const navLinks = [
@@ -136,6 +137,17 @@ const experiences = [
     ],
   },
   {
+    title: "Freelance Code Reviewer",
+    company_name: "Outlier Remote",
+    icon: outlier,
+    iconBg: "#E6DEDD",
+    date: "Dec 2024 - Present",
+    points: [
+      "Optimized user profile update functionality by resolving state management and API integration bugs, reducing data synchronization errors by 90% and enhancing system reliability.",
+      "Refined the profile editing form submission process, reducing user-reported update failures by 85% and ensuring consistent data integrity across the platform.",
+    ],
+  },
+  {
     title: "Full Stack Web Developer",
     company_name: "CODSOFT",
     icon: tesla,
@@ -147,7 +159,6 @@ const experiences = [
       "Implemented CRUD operations with MongoDB, Express.js, and Node.js, optimizing queries through data caching and reducing query time by 25%.",
     ],
   },
-
 ];
 
 const testimonials = [

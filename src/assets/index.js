@@ -19,11 +19,12 @@ import cpp from "./tech/cpp.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import outlier from "./company/outlier.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import linkedin from "./linkedin.svg";
 
 import vichar from "./vichar.png";
 import jobit from "./jobit.png";
@@ -58,4 +59,6 @@ export {
   vichar,
   jobit,
   tripguide,
+  outlier,
+  linkedin,
 };
